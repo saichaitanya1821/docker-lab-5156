@@ -30,7 +30,7 @@ FROM ubuntu:18.04
 #
 # 1. Given the LABEL command set the value of the "maintainer" key equal to 
 #    your first and last name. For example, "maintainer"="John Doe".
-LABEL maintainer="Ankit Vaity"
+LABEL maintainer="Chaitanya Ch"
 
 
 ##################################
@@ -59,7 +59,7 @@ ARG HOST_GID="100"
 #
 # 1. Create an argument using the ARG instruction called HOST_USER which is set
 #    to your first name. For example, HOST_USER="john".
-ARG HOST_USER="Ankit"
+ARG HOST_USER="Chaitanya"
 
 ##################################
 # Here we specify some environment variables which WILL be available to our container after
